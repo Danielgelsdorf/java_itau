@@ -1,0 +1,44 @@
+public class MyClass
+    {
+    public static void main(String args[]){
+        System.out.print("testando java");
+    }
+}
+
+segundo
+public class Continhas
+{
+    public static void main(String args[]){
+        int x=27;
+        int y=4;
+        int soma=x+y;
+        System.out.println("resultado da conta"+soma);
+        soma=x-y;
+        System.out.println("resultado da conta"+soma);
+        soma=x*y;
+        System.out.println("resultado da conta"+soma);
+        soma=x/y;
+        System.out.println("resultado da conta"+soma);
+        soma=x%y;
+        System.out.println("resto"+soma);
+        
+        
+    }
+}
+
+lendo dados:
+import java.util.Scanner;
+public class Leitura
+{
+    public static void main(String args[]){
+        Scanner teclado=new Scanner(System.in);
+        double nota,nota1,media;
+        System.out.println("bem vindo");
+        System.out.println("digite a primeira nota");
+        nota=teclado.nextDouble();
+        System.out.print("digite a nota 2");
+        nota1=teclado.nextDouble();
+        media=(nota+nota1)/2;
+        System.out.println("média do aluno: "+media);
+    }
+}
