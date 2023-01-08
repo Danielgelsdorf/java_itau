@@ -4,10 +4,13 @@ public class ContaMin {
         Scanner teclado=new Scanner(System.in);
         int hora,min,total;
         System.out.print("digite a hora atual");
+        //entrada.
         hora=teclado.nextInt();
         System.out.print("digite o minuto  atual");
         min=teclado.nextInt();
+        //processando
         total=(hora*60)+min;
+        //saída.
         System.out.print("se passaram "+total+" minutos, dês do início do dia.");
     }
 }
