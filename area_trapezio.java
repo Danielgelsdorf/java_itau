@@ -1,3 +1,4 @@
+//calculando a área de um trapézio
 import java.util.Scanner;
 public class trapezio{
     public static void main(String args[]){

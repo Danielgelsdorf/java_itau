@@ -1,3 +1,4 @@
+// contando os minutos que se passaram dês do início do dia, até a hora atual.
 import java.util.Scanner;
 public class ContaMin {
     public static void main(String args[]) {

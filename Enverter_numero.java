@@ -1,3 +1,4 @@
+// envertendo o número ex: 123_321.
 import java.util.Scanner;
 public class Inverter{
     public static void main(String args[]){

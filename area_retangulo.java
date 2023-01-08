@@ -1,3 +1,4 @@
+//calculando a área de um retângulo.
 import java.util.Scanner;
 public class Retangulo{
     public static void main(String args[]){

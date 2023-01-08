@@ -1,3 +1,4 @@
+//calculando a área de um losango.
 import java.util.Scanner;
 public class losango{
     public static void main(String args[]){
